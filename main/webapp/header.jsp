@@ -26,7 +26,6 @@
 	<% 
 		java.util.Calendar ahora = java.util.Calendar.getInstance();
 		int hora = ahora.get(java.util.Calendar.HOUR_OF_DAY);
-		System.out.println(hora);
 	%>
 	
 	<h4>HOLA EQUIPO</h4>

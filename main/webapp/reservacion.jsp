@@ -297,6 +297,7 @@
 <!--CREAMOS UN SCRIPT PARA PONER UN ALERT  HAY QUE REPETIR EL CÓDIGO POR CADA FILA DE LA TABLA-->
 <script type="text/javascript">
 	function reserva(){
+		alert("HOLA");
 		var cliente = document.formulario.cliente.value;
 		var numero = document.formulario.numero.value;
 		var fecha = document.formulario.fecha.value;
