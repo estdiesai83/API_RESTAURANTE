@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 25%;
+	background-color: #0000c0;	
+	position: fixed;
+	height: 100%;
+	overflow: auto;/*para que no se descoloque los enlaces*/
+}
+
+li a{
+	display:block;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a.active{
+	background-color: gainsboro;
+	color: black;
+}
+
+
+li a:hover:not(.active){/*hace que se ponga en gris todos menos el de la clase active*/
+	background-color: grey;
+	color: white;
+}

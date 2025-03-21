@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.borde1{
+	background-color: tomato;
+	border: 2px solid black;
+	width: 250px;
+	margin-top: 200px;
+	margin-left: 200px;
+	padding: 5px;
+	text-align: center;
+}
+
+body{
+	background-color: darkgrey;	
+}
