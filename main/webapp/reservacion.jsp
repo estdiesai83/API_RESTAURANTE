@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>RESERVACION</title>
 </head>
 <body>
 <jsp:include page="header.jsp"></jsp:include>
@@ -97,18 +97,18 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario">
+        <form action="" name="formulario1">
         	<label>Nombre del cliente:</label><br>
-        	<input type="text" name="cliente" value=""><br><br>
+        	<input type="text" name="cliente1" value=""><br><br>
         	
         	<label>Nº Persona:</label><br>
-        	<input type="number" name="numero" value=""><br><br>
+        	<input type="number" name="numero1" value=""><br><br>
         	        	
         	<label>Fecha de Reserva:</label><br>
-        	<input type="date" name="fecha" value=""><br><br>
+        	<input type="date" name="fecha1" value=""><br><br>
         	
         	<label>Telefono de contacto:</label><br>
-        	<input type="text" name="telefono" value=""><br><br>
+        	<input type="text" name="telefono1" value=""><br><br>
         	
         </form>
       </div>
@@ -139,18 +139,18 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario">
+        <form action="" name="formulario2">
         	<label>Nombre del cliente:</label><br>
-        	<input type="text" name="cliente" value=""><br><br>
+        	<input type="text" name="cliente2" value=""><br><br>
         	
         	<label>Nº Persona:</label><br>
-        	<input type="number" name="numero" value=""><br><br>
+        	<input type="number" name="numero2" value=""><br><br>
         	        	
         	<label>Fecha de Reserva:</label><br>
-        	<input type="date" name="fecha" value=""><br><br>
+        	<input type="date" name="fecha2" value=""><br><br>
         	
         	<label>Telefono de contacto:</label><br>
-        	<input type="text" name="telefono" value=""><br><br>
+        	<input type="text" name="telefono2" value=""><br><br>
         	
         </form>
       </div>
@@ -182,18 +182,18 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario">
+        <form action="" name="formulario3">
         	<label>Nombre del cliente:</label><br>
-        	<input type="text" name="cliente" value=""><br><br>
+        	<input type="text" name="cliente3" value=""><br><br>
         	
         	<label>Nº Persona:</label><br>
-        	<input type="number" name="numero" value=""><br><br>
+        	<input type="number" name="numero3" value=""><br><br>
         	        	
         	<label>Fecha de Reserva:</label><br>
-        	<input type="date" name="fecha" value=""><br><br>
+        	<input type="date" name="fecha3" value=""><br><br>
         	
         	<label>Telefono de contacto:</label><br>
-        	<input type="text" name="telefono" value=""><br><br>
+        	<input type="text" name="telefono3" value=""><br><br>
         	
         </form>
       </div>
@@ -225,18 +225,18 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario">
+        <form action="" name="formulario4">
         	<label>Nombre del cliente:</label><br>
-        	<input type="text" name="cliente" value=""><br><br>
+        	<input type="text" name="cliente4" value=""><br><br>
         	
         	<label>Nº Persona:</label><br>
-        	<input type="number" name="numero" value=""><br><br>
+        	<input type="number" name="numero4" value=""><br><br>
         	        	
         	<label>Fecha de Reserva:</label><br>
-        	<input type="date" name="fecha" value=""><br><br>
+        	<input type="date" name="fecha4" value=""><br><br>
         	
         	<label>Telefono de contacto:</label><br>
-        	<input type="text" name="telefono" value=""><br><br>
+        	<input type="text" name="telefono4" value=""><br><br>
         	
         </form>
       </div>
@@ -268,18 +268,18 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario">
+        <form action="" name="formulario5">
         	<label>Nombre del cliente:</label><br>
-        	<input type="text" name="cliente" value=""><br><br>
+        	<input type="text" name="cliente5" value=""><br><br>
         	
         	<label>Nº Persona:</label><br>
-        	<input type="number" name="numero" value=""><br><br>
+        	<input type="number" name="numero5" value=""><br><br>
         	        	
         	<label>Fecha de Reserva:</label><br>
-        	<input type="date" name="fecha" value=""><br><br>
+        	<input type="date" name="fecha5" value=""><br><br>
         	
         	<label>Telefono de contacto:</label><br>
-        	<input type="text" name="telefono" value=""><br><br>
+        	<input type="text" name="telefono5" value=""><br><br>
         	
         </form>
       </div>
@@ -298,10 +298,10 @@
 <script type="text/javascript">
 	function reserva(){
 		alert("HOLA");
-		var cliente = document.formulario.cliente.value;
-		var numero = document.formulario.numero.value;
-		var fecha = document.formulario.fecha.value;
-		var telefono = document.formulario.telefono.value;
+		var cliente = document.formulario1.cliente1.value;
+		var numero = document.formulario1.numero1.value;
+		var fecha = document.formulario1.fecha1.value;
+		var telefono = document.formulario1.telefono1.value;
 		alert("Se ha reservado la mesa"+cliente+" "+" "+numero+" "+fecha+" "+" "+telefono);
 	}
 </script>

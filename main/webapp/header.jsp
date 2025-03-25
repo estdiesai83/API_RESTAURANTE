@@ -14,8 +14,9 @@
 	<!--Creamos una lista con un enlace en cada elemento-->
 	<ul>
 		<li><a href="index.jsp" class="active">
-			<img src="img/icono_restaurante.jpeg" style="width: 10%;"><br>
-			HOME</a>
+				<img src="img/icono_restaurante.jpeg" style="width: 10%;"><br>
+			HOME
+			</a>
 		</li>
 		<li><a href="reservacion.jsp">RESERVACION</a></li>
 		<li><a href="">MENU</a></li>
