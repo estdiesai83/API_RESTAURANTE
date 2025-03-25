@@ -94,10 +94,10 @@
         Reservar Mesa 1</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="text-align:center">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario1">
+        <form action="reservacionSql.jsp" name="formulario1">
         	<label>Nombre del cliente:</label><br>
         	<input type="text" name="cliente1" value=""><br><br>
         	
@@ -110,15 +110,16 @@
         	<label>Telefono de contacto:</label><br>
         	<input type="text" name="telefono1" value=""><br><br>
         	
+        	<button type="submit" class="btn btn-primary" >Reservar</button>        	
         </form>
-      </div>
+      	</div>
       
-        	<div class="modal-footer">
-        		<button type=reset class="btn btn-danger" style="margin-right:220px">Borrar</button>
-		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="float:right">Close</button>
-		        <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button>
-	      </div>
-    </div>
+    	<div class="modal-footer">
+      		<button type=reset class="btn btn-danger" style="margin-right:220px">Borrar</button>
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="float:right">Close</button>
+	        <!-- <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button> -->
+    	</div>
+   	</div>
   </div>
 </div>
 
@@ -139,7 +140,7 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario2">
+        <form action="reservacionSql.jsp" name="formulario2">
         	<label>Nombre del cliente:</label><br>
         	<input type="text" name="cliente2" value=""><br><br>
         	
@@ -151,14 +152,14 @@
         	
         	<label>Telefono de contacto:</label><br>
         	<input type="text" name="telefono2" value=""><br><br>
-        	
+        	<button type="submit" class="btn btn-primary">Reservar</button>
         </form>
       </div>
       
         	<div class="modal-footer">
         		<button type=reset class="btn btn-danger" style="margin-right:220px">Borrar</button>
 		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="float:right">Close</button>
-		        <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button>
+		        <!-- <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button> -->
 	      </div>
     </div>
   </div>
@@ -182,7 +183,7 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario3">
+        <form action="reservacionSql.jsp" name="formulario3">
         	<label>Nombre del cliente:</label><br>
         	<input type="text" name="cliente3" value=""><br><br>
         	
@@ -195,13 +196,14 @@
         	<label>Telefono de contacto:</label><br>
         	<input type="text" name="telefono3" value=""><br><br>
         	
+        	<button type="submit" class="btn btn-primary">Reservar</button>
         </form>
       </div>
       
         	<div class="modal-footer">
         		<button type=reset class="btn btn-danger" style="margin-right:220px">Borrar</button>
 		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="float:right">Close</button>
-		        <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button>
+		        <!-- <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button> -->
 	      </div>
     </div>
   </div>
@@ -225,7 +227,7 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario4">
+        <form action="reservacionSql.jsp" name="formulario4">
         	<label>Nombre del cliente:</label><br>
         	<input type="text" name="cliente4" value=""><br><br>
         	
@@ -238,13 +240,14 @@
         	<label>Telefono de contacto:</label><br>
         	<input type="text" name="telefono4" value=""><br><br>
         	
+        	<button type="submit" class="btn btn-primary">Reservar</button>        	
         </form>
       </div>
       
         	<div class="modal-footer">
         		<button type=reset class="btn btn-danger" style="margin-right:220px">Borrar</button>
 		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="float:right">Close</button>
-		        <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button>
+		        <!-- <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button> -->
 	      </div>
     </div>
   </div>
@@ -268,7 +271,7 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="" name="formulario5">
+        <form action="reservacionSql.jsp" name="formulario5">
         	<label>Nombre del cliente:</label><br>
         	<input type="text" name="cliente5" value=""><br><br>
         	
@@ -280,14 +283,14 @@
         	
         	<label>Telefono de contacto:</label><br>
         	<input type="text" name="telefono5" value=""><br><br>
-        	
+        	<button type="submit" class="btn btn-primary">Reservar</button>
         </form>
       </div>
       
         	<div class="modal-footer">
         		<button type=reset class="btn btn-danger" style="margin-right:220px">Borrar</button>
 		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="float:right">Close</button>
-		        <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button>
+		        <!-- <button type="submit" class="btn btn-primary" onclick="reserva()">Reservar</button> -->
 	      </div>
     </div>
   </div>
@@ -295,7 +298,7 @@
 
 
 <!--CREAMOS UN SCRIPT PARA PONER UN ALERT  HAY QUE REPETIR EL CÓDIGO POR CADA FILA DE LA TABLA-->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	function reserva(){
 		alert("HOLA");
 		var cliente = document.formulario1.cliente1.value;
@@ -305,7 +308,7 @@
 		alert("Se ha reservado la mesa"+cliente+" "+" "+numero+" "+fecha+" "+" "+telefono);
 	}
 </script>
-
+ -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

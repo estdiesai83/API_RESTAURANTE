@@ -19,7 +19,7 @@
 			</a>
 		</li>
 		<li><a href="reservacion.jsp">RESERVACION</a></li>
-		<li><a href="">MENU</a></li>
+		<li><a href="menu.jsp">MENU</a></li>
 		<li><a href="">SALA</a></li>
 		<li><a href="bar.jsp">BAR</a></li>
 		<li><a href="">COCINA</a></li>
