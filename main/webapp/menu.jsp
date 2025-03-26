@@ -32,7 +32,7 @@
 			<p>Tercera opción</p>
 			<input type="text" name="menu2_3" style="width:700px">
 			
-			<p><b>TERCEROS</b></p>
+			<p><b>POSTRES</b></p>
 			<p>Primera opción</p>
 			<input type="text" name="menu3_1" style="width:700px">
 			<p>Segunda opción</p>
