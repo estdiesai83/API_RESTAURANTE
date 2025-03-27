@@ -67,9 +67,9 @@
 		
 		<h4 style="text-align: center">NOVEDADES DEL DIA</h4>
 		
-		<form action="">
-			<input type="date" name="fecha">
-			<textarea rows="10" cols="130" name="novedad" type="text">
+		<form action="bar/barSql.jsp">
+			<input type="date" name="fecha" value="">
+			<textarea style="width:100%; height:200px;" name="novedad" value="">
 			</textarea>
 			<button type="submit" class="btn btn-danger">Guardar</button>
 			<button type="reset" class="btn btn-danger" style="float: right">Borrar</button>
