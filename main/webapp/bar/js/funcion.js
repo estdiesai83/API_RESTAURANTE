@@ -48,3 +48,46 @@ function bebidas(){
 	// para darle estilo y colocar el texto hemos añadido un span en ventas dentro del parrafo aqui definimos el estilo
 	document.getElementById("parrafo").innerHTML="<h4 style='text-align:center; border: 5px solid white;'>"+"RESUMEN VENTAS DEL DIA"+"<br>"+"************************"+"<br>"+"El total de bebidas venidas es "+resultado+"</h4>";
 }
+
+/*si la llamada a una funcion no funcionase poner directemente el codigo de la funcion en ventas.jsp abajo dentro de la etiqueta <script>*/
+function bote(){
+	var hoy=0;
+	var lunes=0;
+	var martes=0;
+	var miercoles=0;
+	var jueves=0;
+	var viernes=0;
+	var sabado=0;
+	var division1=0;
+	var division2=0;
+	var division3=0;
+	var division4=0;
+	var total=0;
+	var resultado1=0;
+	var resultado2=0;
+	var resultado3=0;
+	var resultado4=0;
+	
+	
+	hoy = prompt("bote de hoy: ");
+	lunes = prompt("bote de lunes: ");
+	martes = prompt("bote de martes: ");
+	miercoles = prompt("bote de miercoles: ");
+	jueves = prompt("bote de jueves: ");
+	viernes = prompt("bote de viernes: ");
+	sabado = prompt("bote de sabado: ");
+	
+	division1 = prompt("Numero de gerente");
+	division2 = prompt("Numero de bartener");
+	division3 = prompt("Numero de cocineros");
+	division4 = prompt("Numero de camareros");
+	
+	total=Number(hoy)+Number(lunes)+Number(martes)+Number(miercoles)+Number(jueves)+Number(viernes)+Number(sabado);
+	
+	resultado1 = total*0.50/division1;
+	resultado2 = total*0.20/division2;
+	resultado3 = total*0.15/division3;
+	resultado4 = total*0.15/division4;
+	
+	document.getElementById("parrafo").innerHTML="<p style='text-align:center'>"+"---------------"+"<br>"+"El total del bote semanal es :"+total+"<br><br>"+"Los gerentes cobran: "+resultado1+"<br>"+"Los barteners cobran: "+resultado2+"<br>"+"Los cocineros cobran: "+resultado3+"<br>"+"Los camareros cobran: "+resultado4+"<br>";
+}
