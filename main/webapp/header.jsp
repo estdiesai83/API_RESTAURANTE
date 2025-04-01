@@ -18,7 +18,7 @@
 			HOME
 			</a>
 		</li>
-		<li><a href="reservacion.jsp">RESERVACION</a></li>
+		<li><a href="reservas.jsp">RESERVAS</a></li>
 		<li><a href="menu.jsp">MENU</a></li>
 		<li><a href="">SALA</a></li>
 		<li><a href="bar.jsp">BAR</a></li>

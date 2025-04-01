@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>RESERVACION</title>
+<title>RESERVAS</title>
 </head>
 <body>
 <jsp:include page="header.jsp"></jsp:include>
@@ -12,7 +12,7 @@
 <div style="margin-left:35%; padding: 1px; height:700px;">
 	<!--esta clase container mt-3 esta definida en bootstrap  -->
 	<div class="container mt-3">
-		<h2>RESERVACIONES</h2>
+		<h2>RESERVAS</h2>
 		<table class="table">
 			<!--thread hace un encabezado  -->
 			<thead>
@@ -21,7 +21,7 @@
 					<!--th hace las columnas  -->
 					<th>Nº Mesa</th>
 					<th>Capacidad</th>
-					<th>Reservacion</th>
+					<th>Reserva</th>
 					
 			</thead>
 			<!-- FILA 1 -->
@@ -97,7 +97,7 @@
       <div class="modal-body" style="text-align:center">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="reservacionSql.jsp" name="formulario1">
+        <form action="reservasSql.jsp" name="formulario1">
         	<label>Nombre del cliente:</label><br>
         	<input type="text" name="cliente1" value=""><br><br>
         	
@@ -140,7 +140,7 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="reservacionSql.jsp" name="formulario2">
+        <form action="reservasSql.jsp" name="formulario2">
         	<label>Nombre del cliente:</label><br>
         	<input type="text" name="cliente2" value=""><br><br>
         	
@@ -183,7 +183,7 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="reservacionSql.jsp" name="formulario3">
+        <form action="reservasSql.jsp" name="formulario3">
         	<label>Nombre del cliente:</label><br>
         	<input type="text" name="cliente3" value=""><br><br>
         	
@@ -227,7 +227,7 @@
       <div class="modal-body">
         
         <!-- AQUI METEMOS EL CÓDIGO NUESTRO DE NUESTRO BODY -->
-        <form action="reservacionSql.jsp" name="formulario4">
+        <form action="reservasSql.jsp" name="formulario4">
         	<label>Nombre del cliente:</label><br>
         	<input type="text" name="cliente4" value=""><br><br>
         	

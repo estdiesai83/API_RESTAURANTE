@@ -27,5 +27,18 @@ function caja(){
 	} else {
 		document.getElementById("parrafo").innerHTML=etiqueta+" la venta de hoy es:"+caja+"€</p>";
 	}
+}
+
+function costo(){
+	var margaritas=2;
+	var martinis=1;
+	var vodkatinis=2;
+	var daiquiris=3;
+	var maraquitas=1;        	
+	var negronis=2;
+	var mojitos=1;
+	var pisco=1;
 	
+	alert("debe confirmar la actualizacion");
+	document.getElementById("parrafo").innerHTML="<p style='text-align:center'>------------------------------<br>COSTOS DE LOS TRAGOS<br>-----------------------------<br>costo trago de margarita "+margaritas+"</p>";
 }
