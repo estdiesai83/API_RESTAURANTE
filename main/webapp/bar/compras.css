@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+h1{
+	text-align: center;
+}
+
+hr {
+  height: 10px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #3584e4;
+}
+
+label{
+	width:15%;
+	text-align: left;
+}
+
+input {
+	width: 15%;
+	border-radius: 10px;
+	padding-right:10px;
+}
+
+select {
+	width: 25%;
+	height: 30px;
+	padding-right:10px;
+}
+
+.pedido{
+	text-align: right;
+}
+
+#numpedido{
+	width: 110px;
+	margin-right: 200px;
+	text-align: right;
+}
+
+.cabecera{
+	width:100%;
+	padding:20px;
+}
+
+.fila{
+/* 	display: inline; */
+	width:100%;
+	text-align:center;
+	padding:10px;
+}
+
+.imagen1{
+	padding:20px;
+}
+
+.imagen2{
+	width: 20px;
+	height:20px;
+}
+
+.botonera{
+	display: inline;
+	padding-left: 100px;
+}
