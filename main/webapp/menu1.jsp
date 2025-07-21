@@ -39,25 +39,13 @@
 					<%=request.getParameter("menu3_4")%><br>
 				</div> 
 			</div>		
-		</div> 
-		<%-- <div style="font-family:cursive; font-size:15px">
-			<h2 style="color:blue">POSTRES</h2>	
-			<div style="margin-left: 500px;">
-				<%=request.getParameter("menu3_1")%><br>
-				<%=request.getParameter("menu3_2")%><br>
-			</div>
-			<div style="margin-top:50px;float:left; margin-right: 200px;">
-				<%=request.getParameter("menu3_3")%><br>
-				<%=request.getParameter("menu3_4")%><br>
-			</div>
-		</div> --%>
-		
+		</div> 		
 		
 		<h3 style="margin-right:400px; margin-top:10px;font-size:25px">Incluye: Pan y Bebida</h3>
 		<h3 style="margin-left:500px;font-size:30px; color:red">Precio: 15€</h3>  
 	
 	</div>
 	<button class="btn btn-primary" onclick=window.print()>IMPRIMIR</button>
-	<button class="btn btn-primary" style="float:right;">SALIR</button>
+	<button class="btn btn-primary" onclick="location.href='menu.jsp'" style="float:right;">SALIR</button>
 </body>
 </html>

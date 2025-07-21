@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+h1{
+	text-align: center;
+}
+
+hr {
+  height: 10px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #3584e4;
+}
+/* 
+label{
+	width: 150px;
+	text-align: left;
+} */
+
+input {
+	width: 150px;
+	border-radius: 10px;
+}
+
+select {
+	width: 200px;
+	height: 30px;
+}
+
+.pedido{
+	text-align: right;
+}
+
+#numpedido{
+	width: 110px;
+	margin-right: 200px;
+	text-align: right;
+}
+
+.cabecera{
+	width: 100%;
+	padding: 20px;
+	display: flex;	
+    justify-content: space-evenly;
+}
+
+.contenedor-pedidos {	
+	width: 95%;
+	height: 220px;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+.fila{
+	width: 100%;
+	margin-bottom: 5px;
+	display: flex;	
+    justify-content: space-evenly;
+}
+
+.cabecera{
+    width: 95%;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-evenly;
+    font-size: 10px;
+    font-color: black;
+}
+
+.botonera{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.imagen1{
+	padding: 20px;
+}
+
+.imagen2{
+	width: 20px;
+	height: 20px;
+}

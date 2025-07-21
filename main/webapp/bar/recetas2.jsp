@@ -6,7 +6,6 @@
 <meta charset="UTF-8">
 	<title>RECETAS</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/recetas.css">
 </head>
 <body style="background-color:rgb(192,192,192);">
 
@@ -46,57 +45,68 @@
 	<br>
 	<h2 style="text-align:center;color:white">Crear Receta</h2>
 	
-	<form action="recetasSql.jsp">
-		<div class="contenedor-principal">
-			<div class="fila">
-				<div class="columna-izq">
-				  <label class="etiqueta">Nombre de la bebida:</label>
-			  	  <input type="text" id="nombre">
-		  	  </div>
-			</div>
+	<div class="row g-3 align-items-center">
+	  <div class="col-auto">
+	    <label class="col-form-label">Nombre de la bebida:</label>
+	  </div>
+	  <div class="col-auto">
+	    <input type="text" id="nombre" class="form-control">
+	  </div>
+	</div>
 	
-			<div class="contenedor-recetas">
-				<div class="cabecera">
-					<label class="etiqueta-cabecera">Cantidad</label>
-					<label class="etiqueta-cabecera">Unidad</label>
-					<label class="etiqueta-cabecera">Ingrediente</label>
-				    <br><br>
-			    </div>
-				<%for(int i=1;i<4;i++){ %>
-			  		<div class="fila-contenedor">	
-			    		<input type="Number" name="cantidad<%=i%>">
-		      			<input type="Number" name="unidad<%=i%>" >
-		      			<input type="text" name="ingrediente<%=i%>">
-					</div>
-		  		<%} %>
-			</div>
-							
-		
-			<div class="fila">
-				<div class="columna-izq">
-			  		<label class="etiqueta">Decoración:</label>
-				    <input type="text" id="decoracion"">
-			    </div>
-			    <div class="columna-dcha">
-				    <label class="etiqueta">Cristaleria:</label>
-				    <input type="text" id="cristaleria">
-			    </div>
-			  </div>
-			<br>
-			
-			<div>
-				<h4 style="text-align:center;">Preparación:</h4>
-			  	<textarea id="preparacion" rows="3"></textarea>
-			</div>
-			<div>
-				<button type="submit" class="btn btn-danger">
-					Guardar
-			 	</button>
-			 	<button style="margin-right:10%;float:right" type="button" class="btn btn-danger" onclick="location.href='http://localhost:8085/API_RESTAURANTE/bar.jsp'">
-			 		Salir
-			 	</button>
-		 	</div>
-	 	</div>
+	<div>
+		<table class="table table-success table-striped">
+			<thead>
+			    <tr>
+			    	<th>Cantidad</th>
+				    <th>Unidad</th>
+				    <th>Ingrediente</th>
+			    </tr>
+		  	</thead>
+		  	<tbody>
+		    	<tr class="table-active">
+		    		<td contenteditable=true id="cantidad1"></td>
+		      		<td contenteditable=true id="unidad1"></td>
+		      		<td contenteditable=true id="ingrediente1"></td>
+		      		<!-- <tdcontenteditable=true id="cantidad1"><input type="text" name="add1" value="" class="border-none"></td> -->
+		    	</tr>
+		    	<tr class="table-active">
+		    		<td contenteditable=true id="cantidad2"></td>
+		      		<td contenteditable=true id="unidad2"></td>
+		      		<td contenteditable=true id="ingrediente2"></td>
+		    	</tr>
+		  </tbody>
+		</table>
+      </div>
+	
+	
+	<div class="row g-3 align-items-center">
+	  <div class="col-auto">
+	    <label class="col-form-label">Decoración:</label>
+	  </div>
+	  <div class="col-auto">
+	    <input type="text" id="decoracion" class="form-control">
+	  </div>
+	  <div class="col-auto">
+	    <label class="col-form-label">Cristaleria:</label>
+	  </div>
+	  <div class="col-auto">
+	    <input type="text" id="cristaleria" class="form-control">
+	  </div>
+	</div>
+	<br>
+	<div class="mb-3">
+		<h4 style="text-align:center;">Preparación:</h4>
+	  	<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	</div>
+	<form action="recetasSql.jsp">
+		<button type="submit" class="btn btn-danger">
+			Guardar
+	 	</button>
+	 	<button style="margin-right:10%" type="button" class="btn btn-danger" >
+	 		<a href="http://localhost:8085/API_RESTAURANTE/bar.jsp">
+			Salir</a>
+	 	</button>
  	</form>
 </div>
 

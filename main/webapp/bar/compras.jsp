@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link rel="stylesheet" href="compras.css">
+<link rel="stylesheet" href="css/compras.css">
 
 <title>Compras</title>
 
@@ -25,45 +25,44 @@
 				  <option value="4">4</option>
 			</select>
 		</div>
-		<hr>
-		
-  		<%for(int i=1;i<4;i++){ %>
-	  		<div class="fila">	
-	  		 <%if(i==1){%>  			 
-				<label>Cantidad</label>
-				<label>Bebida</label>
-				<label>Fecha Pedido</label>
-			    <label>Fecha Requerido</label>
-			    <br><br>
-		  	<% }%>		
-	    		<input type="Number" name="cantidad<%=i%>">
-
-	      		<select name="bebida<%=i%>">
-					  <option value="bebida">Bebida</option>
-					  <option value="Margarita">Margarita</option>
-					  <option value="Daequiri">Daequiri</option>
-					  <option value="Negroni">Negroni</option>
-					  <option value="Maraquita">Maraquita</option>
-				</select>			    		
-
-      			<input name="fechapedido<%=i%>" type="date">
-
-      			<input name="fecharequerido<%=i%>" type="date">
-			</div>
-  		<%} %>
+		<hr>		
+  		<div class="cabecera">			 
+			<label>Cantidad</label>
+			<label>Bebida</label>
+			<label>Fecha Pedido</label>
+		    <label>Fecha Requerido</label>
+		    <br>
+	    </div>
+		<div class="contenedor-pedidos">
+	  		<%for(int i=1;i<16;i++){ %>
+		  		<div class="fila">		  		 	
+		    		<input type="Number" name="cantidad<%=i%>">
+	
+		      		<select name="bebida<%=i%>">
+						  <option value="bebida">Bebida</option>
+						  <option value="Margarita">Margarita</option>
+						  <option value="Daequiri">Daequiri</option>
+						  <option value="Negroni">Negroni</option>
+						  <option value="Maraquita">Maraquita</option>
+					</select>			    		
+	
+	      			<input type="date" name="fechapedido<%=i%>">
+	
+	      			<input type="date" name="fecharequerido<%=i%>">
+				</div>
+	  		<%} %>
+  		</div>
 			
 		<hr>
 		<div class="botonera">
 			<button type="submit" class="btn btn-danger">Autorización</button>
-			<button type="button"><a href="http://localhost:8085/API_RESTAURANTE/bar.jsp"><img class="imagen2" alt="" src="img/atras.jpeg"></button>
-			<button type="submit" class="btn btn-danger" style="float: right">Realizar Pedido</button>
+			<button type="button" onclick="location.href='http://localhost:8085/API_RESTAURANTE/bar.jsp'">
+				<img class="imagen2" alt="" src="img/atras.jpeg">
+			</button>
+			<button type="submit" class="btn btn-danger">Realizar Pedido</button>
 		</div>
 	</form>
 </div>
 </body>
-
-<script type="text/javascript">
-
-</script>
 
 </html>
